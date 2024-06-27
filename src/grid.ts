@@ -17,4 +17,8 @@ export class Grid {
     }
     return Grid.instance;
   }
+
+  isLost(position: {x: number, y: number}): boolean {
+    return position.x > this.width || position.y > this.height || position.x < 0 || position.y < 0;
+  }
 }

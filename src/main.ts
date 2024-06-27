@@ -3,9 +3,13 @@ import {TOrientation} from './types';
 import {Grid} from './grid';
 import {Command} from './command';
 
+// const input = `4 8
+// (2, 3, E) LFRFF
+// (0, 2, N) FFLFRFF`;
+
 const input = `4 8
-(2, 3, E) LFRFF
-(0, 2, N) FFLFRFF`;
+(2, 3, N) FLLFR
+(1, 0, S) FFRLF`;
 
 function main(input: string): void {
   // first of all we have to parse the input
