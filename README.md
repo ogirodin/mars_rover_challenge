@@ -16,3 +16,13 @@ npm install
 
 npm run start
 ```
+
+To debug the code on webstorm, you can run the following command:
+
+```bash
+npm run debug
+```
+
+Then go in public directory, click on main.js and press shift + F9
+
+Then go in typescript files like main.ts, add a breakpoint and press ctrl + F5
