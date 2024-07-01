@@ -26,3 +26,11 @@ npm run debug
 Then go in public directory, click on main.js and press shift + F9
 
 Then go in typescript files like main.ts, add a breakpoint and press ctrl + F5
+
+### How to test
+
+An easy way to test robot movements is to run the following command:
+
+```bash
+npm test
+```
