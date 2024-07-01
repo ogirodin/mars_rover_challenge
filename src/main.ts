@@ -1,4 +1,4 @@
-import {Robot} from './Robot';
+import {Robot} from './robot';
 import {TOrientation} from './types';
 import {Grid} from './grid';
 import {Command} from './command';

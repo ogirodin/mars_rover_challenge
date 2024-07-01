@@ -40,6 +40,6 @@ export class Robot implements IRobot {
   }
 
   getPosition(): string {
-    return `(${this.x} ${this.y} ${this.orientation}) ${this.lost ? 'LOST' : ''}`;
+    return `(${this.x}, ${this.y}, ${this.orientation})${this.lost ? ' LOST' : ''}`;
   }
 }

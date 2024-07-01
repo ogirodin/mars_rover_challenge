@@ -1,4 +1,4 @@
-import {Robot} from './Robot';
+import {Robot} from './robot';
 
 export class Command {
   constructor(private command: string) {}
