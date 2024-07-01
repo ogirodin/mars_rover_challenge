@@ -2,7 +2,7 @@
 // creating Grid as a singleton
 export class Grid {
 
-  private static instance: Grid;
+  private static instance: Grid | null;
   private width: number;
   private height: number;
 
@@ -20,5 +20,9 @@ export class Grid {
 
   isLost(position: {x: number, y: number}): boolean {
     return position.x > this.width || position.y > this.height || position.x < 0 || position.y < 0;
+  }
+
+  static resetInstance(): void {
+    Grid.instance = null;
   }
 }
