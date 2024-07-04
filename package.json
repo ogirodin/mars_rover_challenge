@@ -6,14 +6,7 @@
   "scripts": {
     "start": "ts-node src/main.ts",
     "debug": "tsc -w",
-    "test":  "jest"
-  },
-  "jest": {
-    "preset": "ts-jest",
-    "testEnvironment": "node",
-    "testMatch": [
-      "**/__tests__/**/*.test.ts"
-    ]
+    "test": "jest"
   },
   "author": "",
   "license": "ISC",
